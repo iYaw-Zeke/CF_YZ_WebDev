@@ -11,28 +11,6 @@ body{
 	margin-top: 80px;
 	position: relative;
 }
-
-/*
-.jumbotron nav{
-    padding-top: 10px;
-    background-color: #555555;
-    padding-bottom: 40px;
-        
-}
-/*
-.navbar li{
-    height: 60px;
-	display:inline-block;
-
-}
-
-
-/*.navbar li{
-    height: 60px;
-	display:inline-block;
-	padding-right:10px;
-}*/
-
 .navbar ul li a{
 	text-transform: uppercase;
 	color: orange;
@@ -42,33 +20,12 @@ body{
 	font-family:'Raleway', sans-serif; 	
 
 }
-/*.navbar ul{
-	float:right;
-	height: 10px;
-    margin-bottom: 0px;
-    margin-top: 0px;
-    
-}/*
-#container.nav{
-	text-align: right;
-	width:70%;
-	border-left: 0px;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-left: 12px;
-}
-
-
-
-
-
-/* Adding Pseudo- Classs.. *//*
+/* Adding Pseudo- Classs.. */
 #container navbar a:hover{
 	color: lightsalmon;
 	text-decoration: none;
 	transition: color 600ms;
 }
-/**** XXXXXXXXXXXXXX ***/
 
 .container{
     padding-bottom: 20px;
@@ -95,8 +52,6 @@ font-size:1.4em;
 }
 
 /*** Contact Page ***/
-
-
 
 .tainer h2{
 	font-family:sans-serif;
@@ -142,9 +97,6 @@ font-size:1.4em;
 
 .col-B{
 	padding:10px;
-
-	
-
 }
 
 .column{
@@ -157,8 +109,6 @@ font-size:1.4em;
 	border:none;
 }
 
-
-
 	.glyphicon:hover{
 	color:darkorange;
 	text-decoration: none;
@@ -169,7 +119,6 @@ font-size:1.4em;
 	.glyphicon{
 	font-size: 1.5em;
 	color:grey;
-
 }
 
 
@@ -179,7 +128,6 @@ font-size:1.4em;
 		color: black;
 		padding-bottom: 15px;
 		text-align: center;
-
 	}
 
 	.ctainer h5{
@@ -194,14 +142,11 @@ font-size:1.4em;
 		background-color: grey;
 		padding-bottom:200px;
 		text-align: center;
-
-		
 	}
 		 
 
 	/*** Styling FAQs  ***/
 
-	
 .header h3{
 	color: black;
 	text-align: center;
@@ -213,11 +158,10 @@ font-size:1.4em;
 
 
 .panel-title:hover{
-	color:darkorange;
+	color:orange;
 	text-decoration: none;
 	transition: color 600ms;
-	-webkit-transition: color 600ms;
-	
+	-webkit-transition: color 600ms;	
 }
 
 .panel-body{
@@ -228,11 +172,9 @@ font-size:1.4em;
 
 
 /*** Media Querry ***/
-
-
 .container-fluid {
     padding-right: 15px;
-    padding-left: 15px;
+    padding-left: 25px;
     margin-right: auto;
     margin-left: auto;
     font-size: 1em;
@@ -241,13 +183,10 @@ font-size:1.4em;
     padding-bottom: 40px;
     background-color: #adcec2;
 }
-
-
 .container-fluid h2,h3{
 	text-align: center;
     
 }
-
 
 /**** About ****/
 #about .row{
@@ -257,7 +196,6 @@ font-size:1.4em;
 	padding-right: 30px;
 	padding-top: 100px;
 	text-align: center;
-
 }
 
 #about h4{
@@ -279,26 +217,46 @@ font-size: 2em;
 	height:400px;
 }
 
-
-
 #contact a{
 	font-size: 1.5em;
 	font-family:'Josefin Sans', sans-serif;
 	padding-left: 10px;
 	padding-right:10px;
-	color:red;
-	
+	color:red;	
 }
 #contact p{
 	font-size: 1.5em;
-	font-family:'Josefin Sans', sans-serif;
-	  
+	font-family:'Josefin Sans', sans-serif;  
+}
+
+#contact .glyphicon:hover{
+	font-size: 2.0em;
+	color:darkorange;
 }
 
 #contact .glyphicon{
-	font-size: 2.0em;
-	color:#8e1d01;
+	color:darkred;
 
+}
+
+
+/**** FAQs ****/
+
+glyphicon:hover{
+	color:darkorange;
+	text-decoration: none;
+	transition: color 600ms;
+	-webkit-transition: color 600ms;
+}
+
+	.glyphicon{
+	font-size: 1.5em;
+	color:grey;
+}
+
+#process.row{
+	padding-left: 20px;
+	padding-right: 50px;
 }
 
 /**** More Infopage ****/
@@ -311,8 +269,7 @@ font-size: 2em;
 #info li{
 	padding-bottom: 20px;
 	font-size:3em
-	padding-top: 5px; 
-	
+	padding-top:5px;	
 }
 /**** Project Name_ Navigation bar ****/
 
@@ -333,6 +290,10 @@ font-size: 2em;
   padding-top: 55px;
 }
 
+#info{
+	background-color: #f1ffcc;
+	color:black;
+}
 
 
 
