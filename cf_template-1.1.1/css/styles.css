@@ -1,12 +1,15 @@
+/*** Home page ***/
+
 body{
-    background-color: #9099A2;
+    background-color: lightgrey;
     max-width: inherit;
+    padding-top:140px;
 }
 .jumbotron {
     background-image: url("http://yaw.bitballoon.com/img/mfo1.jpeg");
     background-size:cover;
     padding-bottom: 15px;
-    padding-top: 5px;
+    padding-top: 50px;
     padding-left: 0px;
     
 }
@@ -28,19 +31,20 @@ body{
 
 }
 .jumbotron a{
-    color:black;
-	/*font-family: San-serif;*/
+    /*color:black;
+	/*font-family: San-serif;
 	font-size:1.2em;
 	margin-left: 10px;
 	margin-right: 2px;
-    padding-top: 10px;
+    padding-top: 200px;*/
     
        
 }
 
-.nav{
+.jumbotron nav{
     padding-top: 10px;
     background-color: #555555;
+    padding-bottom: 40px;
         
 }
 
@@ -62,6 +66,9 @@ body{
 	color: white;
 	letter-spacing:0.1em;
 	margin-left: 1px;
+	font-size: 1em;
+	font-family:'Raleway', sans-serif; 
+
 	
 	
 
@@ -102,5 +109,168 @@ body{
 
 }
 
+
+
+
+/*** Contact Page ***/
+
+body{
+	background-color:lightgrey;
+	padding-top:140px;
+	margin-right: 5%;
+	margin-left:5%;
+	max-width: inherit;
 	
+	
+}
+* { box-sizing: border-box; }
+
+}
+.tainer h2{
+	font-family:sans-serif;
+}
+
+.image{
+	display: inline-block;
+	float: left;
+	padding-left: 10px;
+	padding-right:10px;
+	margin-bottom: 30px;
+}
+
+#image {
+    width:98%;
+
+}
+
+
+.cpage h2{
+	margin-bottom: 20px;
+	font-size: 1.5em;
+	text-align: center;
+
+}
+
+
+.tainer h1{
+	text-align: center;
+	color:black;
+}
+/* styling the navgation bar */
+
+.nav{
+	background-color:#555555;
+	position:fixed;
+	width:100%;
+	top:0;
+	padding:20px 10px 20px;
+	right:0;	
+}
+
+.nav li{
+    height: 60px;
+	display:inline-block;
+}
+
+.nav ul li{
+	display:inline-block;
+	margin-right: 12px;
+	
+}
+
+.nav ul li a{
+	text-transform: uppercase;
+	color: white;
+	letter-spacing: 0.05em;
+
+}
+.nav ul{
+	float:right;
+	height: 20px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}	
+
+.nav a:hover{
+	color:darkorange;
+	text-decoration: none;
+	transition: color 600ms;
+	-webkit-transition: color 600ms;
+}
+
+.column{
+	display: inline-block;
+	float:left;
+	width:31%;
+	padding:10px;
+	margin:10px;
+	border:solid;
+	background-color: lightgrey;
+
+}
+
+.col-B{
+	padding:10px;
+
+	
+
+}
+
+.col-B .column{
+	display: inline-block;
+	float:center;
+	padding-left:0px;
+	width:40%;
+	margin:5px 5px px 5px ;
+	padding:3px;
+	border:none;
+}
+
+	.glyphicon:hover{
+	color:darkorange;
+	text-decoration: none;
+	transition: color 600ms;
+	-webkit-transition: color 600ms;
+}
+
+	.glyphicon{
+	font-size: 1.5em;
+	color:grey;
+}
+
+
+	.tainer h5{
+		text-transform: uppercase;
+		font-size: 1.2em;
+		color: black;
+		padding-bottom: 15px;
+		text-align: center;
+	}
+
+	/*** Styling FAQs  ***/
+
+	
+.header h3{
+	color: black;
+	text-align: center;
+	font-size: 1.5em;
+	margin-bottom: 25px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: bolder;
+}
+
+
+.panel-title:hover{
+	color:darkorange;
+	text-decoration: none;
+	transition: color 600ms;
+	-webkit-transition: color 600ms;
+	
+}
+
+.panel-body{
+	color:darkgreen;
+	background-color: lightyellow;
+	font-family: 'Raleway', sans-serif;
+}
         

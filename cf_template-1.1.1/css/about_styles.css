@@ -14,7 +14,7 @@ body{
 	position:fixed;
 	width:100%;
 	top:0;
-	padding:20px 10px 20px;
+	padding:20px 10px 60px;
 	right:0px;
 	background-color: #555555;	
 }
@@ -34,6 +34,7 @@ body{
 	text-transform: uppercase;
 	color: white;
 	letter-spacing: 0.05em;
+	font-size:1em;
 
 }
 .nav ul{
@@ -70,6 +71,7 @@ body{
 	padding-left: 10px;
 	padding-right:10px;
 	margin-bottom: 30px;
+	
 }
 
 .container h2{
@@ -105,8 +107,10 @@ body{
 
 .intro h2{
 	margin-top:0px;
-	font-family:'Supermercado One', cursive;
+	font-family: 'Raleway', sans-serif;
 	font-size: 2em;
+	font-weight: bolder;
+	text-decoration: underline;
 }
 
 
@@ -128,7 +132,8 @@ body{
 .skills h2{
 	margin-top: 0px;
     margin-bottom: 0px;
-	font-family:'Supermercado One', cursive;
+	font-family: 'Raleway', sans-serif;
+	text-decoration: underline;
 }
 
 #skills-list{
@@ -153,9 +158,10 @@ margin-top: 0px;
 	padding:top right bottom left;
 	width: 70%;
 	margin-bottom: 10px;
-	font-family:'Supermercado One', cursive;
-	color: white;
-	font-size: 1em;
+	font-family: 'Raleway', sans-serif;;
+	color: black;
+	font-size: 2em;
+	text-decoration: underline;
 	
 }
 
@@ -163,12 +169,12 @@ margin-top: 0px;
 h1,
 h2,
 h3{
-	font-family:s"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-family: 'Raleway', sans-serif;
 }
 
 p,
 li{
-	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-family: 'Raleway', sans-serif;
 }
 
 

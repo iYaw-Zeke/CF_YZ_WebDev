@@ -1,5 +1,5 @@
 body{
-	background-color:#9099A2;
+	background-color:lightgrey;
 	padding-top:140px;
 	margin-right: 5%;
 	margin-left:5%;
@@ -8,32 +8,27 @@ body{
 }
 * { box-sizing: border-box; }
 
- /*entire page body*/
- /*.container{
- 	width: 100%;
- 	margin: 0 auto;
-	 padding-left: 20px;
-	 padding-right: 20px;
-	 border: width border-style color:lawngreen;
-	 /*background-image: url("http://yaw-zeke.bitballoon.com/img/Y-6.jpg");
-	 background-size: cover;*/
-    
- }
+ 
+
+
+ /*#contain{
+ 	background-color: red;
+ }*/
 
 }
-.container h2{
+.contain h2{
 	font-family:sans-serif;
 }
 
 .image{
 	display: inline-block;
-	float: left;
+	float:right;
 	padding-left: 10px;
 	padding-right:10px;
 	margin-bottom: 30px;
 }
 
-.container h1{
+.contain h1{
 	text-align: center;
 }
 /* styling the navgation bar */
@@ -44,7 +39,8 @@ body{
 	width:100%;
 	top:0;
 	padding:20px 10px 20px;
-	right:0;	
+	right:0;
+	font-family:'Raleway', sans-serif;	
 }
 
 .nav li{
@@ -81,11 +77,23 @@ body{
 .column{
 	display: inline-block;
 	float:left;
-	width:25%;
-	height: 40%;
+	width:30%;
 	padding:10px;
 	margin:10px;
-	background-color:#e0ac69;
+	background-color:
+	}
+
+
+	.column p{
+	text-align: center;
+	height: 150px;
+	border: solid;
+	}
+
+	.container{
+		background-color:lightyellow;
+		padding-top: 40px;
+		border: 10px;
 	}
 	
 	
