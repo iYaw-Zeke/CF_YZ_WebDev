@@ -1,85 +1,54 @@
 /*** Home page ***/
 
+
+
 body{
-    background-color: lightgrey;
-    max-width: inherit;
-    padding-top:140px;
-}
-.jumbotron {
-    background-image: url("http://yaw9.bitballoon.com/img/mfo1.jpeg");
-    background-size:cover;
-    padding-bottom: 15px;
-    padding-top: 50px;
-    padding-left: 0px;
-    
+	background-color:lightgrey;
+	padding-top:60px;
+	margin-right: 5%;
+	margin-left:5%;
+	max-width: inherit;
+	margin-top: 80px;
+	position: relative;
 }
 
-.jumbotron p{
-	color:black;
-	font-family: Calibri;
-	text-align: center;
-	font-size:1.3em;
-
-}
-
-.jumbotron h1{
-	color: black;
-	font-family: Bell mt;
-	font-size:3em;
-	text-align: center;
-	
-
-}
-.jumbotron a{
-    /*color:black;
-	/*font-family: San-serif;
-	font-size:1.2em;
-	margin-left: 10px;
-	margin-right: 2px;
-    padding-top: 200px;*/
-    
-       
-}
-
+/*
 .jumbotron nav{
     padding-top: 10px;
     background-color: #555555;
     padding-bottom: 40px;
         
 }
-
-.nav li{
+/*
+.navbar li{
     height: 60px;
 	display:inline-block;
 
 }
 
 
-.nav li{
+/*.navbar li{
     height: 60px;
 	display:inline-block;
 	padding-right:10px;
-}
+}*/
 
-.nav ul li a{
+.navbar ul li a{
 	text-transform: uppercase;
-	color: white;
+	color: orange;
 	letter-spacing:0.1em;
 	margin-left: 1px;
-	font-size: 1em;
-	font-family:'Raleway', sans-serif; 
-
-	
-	
+	font-size: 1.2em;
+	font-family:'Raleway', sans-serif; 	
 
 }
-.nav ul{
+/*.navbar ul{
 	float:right;
 	height: 10px;
     margin-bottom: 0px;
     margin-top: 0px;
     
-}
+}/*
 #container.nav{
 	text-align: right;
 	width:70%;
@@ -87,28 +56,32 @@ body{
     padding-right: 15px;
     padding-left: 15px;
     margin-left: 12px;
-
 }
 
 
-/* Adding Pseudo- Classs.. */
-#container nav a:hover{
+
+
+
+/* Adding Pseudo- Classs.. *//*
+#container navbar a:hover{
 	color: lightsalmon;
 	text-decoration: none;
 	transition: color 600ms;
 }
+/**** XXXXXXXXXXXXXX ***/
 
 .container{
     padding-bottom: 20px;
-    padding-top:30px;
     padding-right: 50px;
-    height: 200px;
-    text-align: center;
+    height: 150px;
+    text-align: left;
+     margin-top: 40px;
+    padding-top: 30px;
 }
 
-.bambi p{
+.bambi {
 	font-size: 1.5em;
-
+	text-align: center;
 }
 
 .carousel-caption p{
@@ -121,23 +94,10 @@ font-size:1.4em;
 
 }
 
-
-
-
 /*** Contact Page ***/
 
-body{
-	background-color:lightgrey;
-	padding-top:140px;
-	margin-right: 5%;
-	margin-left:5%;
-	max-width: inherit;
-	
-	
-}
-* { box-sizing: border-box; }
 
-}
+
 .tainer h2{
 	font-family:sans-serif;
 }
@@ -168,56 +128,14 @@ body{
 	text-align: center;
 	color:black;
 }
-/* styling the navgation bar */
 
-.nav{
-	background-color:#555555;
-	position:fixed;
-	width:100%;
-	top:0;
-	padding:20px 10px 20px;
-	right:0;
-	z-index:999;	
-}
 
-.nav li{
-    height: 60px;
-	display:inline-block;
-}
-
-.nav ul li{
-	display:inline-block;
-	margin-right: 12px;
-	
-}
-
-.nav ul li a{
-	text-transform: uppercase;
-	color: white;
-	letter-spacing: 0.05em;
-
-}
-.nav ul{
-	float:right;
-	height: 20px;
-    margin-bottom: 0px;
-    margin-top: 0px;
-}	
-
-.nav a:hover{
-	color:darkorange;
-	text-decoration: none;
-	transition: color 600ms;
-	-webkit-transition: color 600ms;
-}
-
-.column{
+.col{
 	display: inline-block;
 	float:left;
 	width:31%;
-	padding:10px;
+	padding-bottom: 10px;
 	margin:10px;
-	border:solid;
 	background-color: lightgrey;
 
 }
@@ -229,15 +147,17 @@ body{
 
 }
 
-.col-B .column{
+.column{
 	display: inline-block;
-	float:center;
+	float:left;
 	padding-left:0px;
-	width:40%;
+	width:30%;
 	margin:5px 5px px 5px ;
 	padding:3px;
 	border:none;
 }
+
+
 
 	.glyphicon:hover{
 	color:darkorange;
@@ -249,6 +169,7 @@ body{
 	.glyphicon{
 	font-size: 1.5em;
 	color:grey;
+
 }
 
 
@@ -258,7 +179,25 @@ body{
 		color: black;
 		padding-bottom: 15px;
 		text-align: center;
+
 	}
+
+	.ctainer h5{
+		text-transform: uppercase;
+		font-size: 1.2em;
+		color: black;
+		padding-bottom: 15px;
+		text-align: center;
+	}
+
+	.ctainer{
+		background-color: grey;
+		padding-bottom:200px;
+		text-align: center;
+
+		
+	}
+		 
 
 	/*** Styling FAQs  ***/
 
@@ -289,30 +228,110 @@ body{
 
 
 /*** Media Querry ***/
-.container-fluid{
-    border-top-width: 50px;
-    margin-top: 100px;
-    padding-bottom: 50px;
-}
 
-.container-fluid {
-    padding-top: 0px;
-}
 
 .container-fluid {
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
-    background-color: white;
-    font-size: 2em;
+    font-size: 1em;
+    padding-top: 0px;
+    margin-top: 20px;
+    padding-bottom: 40px;
+    background-color: #adcec2;
+}
+
+
+.container-fluid h2,h3{
+	text-align: center;
+    
+}
+
+
+/**** About ****/
+#about .row{
+	background-color: #f1ffcc;
+	padding-bottom: 30px;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 100px;
+	text-align: center;
+
+}
+
+#about h4{
+font-family: 'Josefin Sans', sans-serif; 
+font-size: 2em;
+}
+
+
+/**** Contact ****/
+
+#contact{
+	background-image:url(http://yaw10.bitballoon.com//img/mb.jpg);
+	background-attachment: fixed;
+	background-size:cover;
+	color: black;
+	padding:50px;
+	padding-bottom: 120px;
+	padding-top: 50px
+	height:400px;
 }
 
 
 
+#contact a{
+	font-size: 1.5em;
+	font-family:'Josefin Sans', sans-serif;
+	padding-left: 10px;
+	padding-right:10px;
+	color:red;
+	
+}
+#contact p{
+	font-size: 1.5em;
+	font-family:'Josefin Sans', sans-serif;
+	  
+}
 
+#contact .glyphicon{
+	font-size: 2.0em;
+	color:#8e1d01;
 
+}
 
+/**** More Infopage ****/
+
+#info .row{
+	background-color: #f1ffcc;
+	padding-bottom: 20px;
+}
+
+#info li{
+	padding-bottom: 20px;
+	font-size:3em
+	padding-top: 5px; 
+	
+}
+/**** Project Name_ Navigation bar ****/
+
+.projectName{
+	text-transform: uppercase;
+	font-size: 2.5em;
+	font-family: 'Russo One', sans-serif;
+	
+}
+
+.projectName a {
+	color: #8e1d01;
+}
+
+/**** Anchor to Display full section Name under navbar  ****/
+
+.anchor {
+  padding-top: 55px;
+}
 
 
 
