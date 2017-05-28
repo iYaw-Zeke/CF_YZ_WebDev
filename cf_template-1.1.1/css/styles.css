@@ -6,7 +6,7 @@ body{
     padding-top:140px;
 }
 .jumbotron {
-    background-image: url("http://yaw.bitballoon.com/img/mfo1.jpeg");
+    background-image: url("http://yaw9.bitballoon.com/img/mfo1.jpeg");
     background-size:cover;
     padding-bottom: 15px;
     padding-top: 50px;
@@ -90,6 +90,7 @@ body{
 
 }
 
+
 /* Adding Pseudo- Classs.. */
 #container nav a:hover{
 	color: lightsalmon;
@@ -101,8 +102,19 @@ body{
     padding-bottom: 20px;
     padding-top:30px;
     padding-right: 50px;
-    height: 300px;
+    height: 200px;
+    text-align: center;
 }
+
+.bambi p{
+	font-size: 1.5em;
+
+}
+
+.carousel-caption p{
+font-size:1.4em;
+}
+
 
 .column{
  background-color: white;
@@ -164,7 +176,8 @@ body{
 	width:100%;
 	top:0;
 	padding:20px 10px 20px;
-	right:0;	
+	right:0;
+	z-index:999;	
 }
 
 .nav li{
@@ -273,4 +286,61 @@ body{
 	background-color: lightyellow;
 	font-family: 'Raleway', sans-serif;
 }
+
+
+/*** Media Querry ***/
+.container-fluid{
+    border-top-width: 50px;
+    margin-top: 100px;
+    padding-bottom: 50px;
+}
+
+.container-fluid {
+    padding-top: 0px;
+}
+
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: white;
+    font-size: 2em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         
