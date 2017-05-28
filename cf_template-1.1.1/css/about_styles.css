@@ -1,0 +1,175 @@
+body{
+	background-color: #9099A2;
+	padding-top:140px;
+	margin-right: 5%;
+	margin-left:5%;
+	
+}
+* { box-sizing: border-box; }
+
+/* styling the navgation bar */
+
+.nav{
+	
+	position:fixed;
+	width:100%;
+	top:0;
+	padding:20px 10px 20px;
+	right:0px;
+	background-color: #555555;	
+}
+
+.nav li{
+    height: 60px;
+	display:inline-block;
+}
+
+.nav ul li{
+	display:inline-block;
+	margin-right: 12px;
+	
+}
+
+.nav ul li a{
+	text-transform: uppercase;
+	color: white;
+	letter-spacing: 0.05em;
+
+}
+.nav ul{
+	float:right;
+	height: 20px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}	
+/* Adding Pseudo- Classs.. */
+.nav a:hover{
+	color:darkorange;
+	text-decoration: none;
+	transition: color 600ms;
+	-webkit-transition: color 600ms;/* Safari compactibility*/
+}
+
+
+
+ /*entire page body*/
+ .container{
+ 	width: 100%;
+ 	margin: 0 auto;
+	 padding-left: 20px;
+	 padding-right: 20px;
+	 border: width border-style color:lawngreen;
+	 /*background-image: url("http://yaw-zeke.bitballoon.com/img/Y-6.jpg");
+	 background-size: cover;*/
+    
+}
+
+.image{
+	display: inline-block;
+	float: left;
+	padding-left: 10px;
+	padding-right:10px;
+	margin-bottom: 30px;
+}
+
+.container h2{
+	font-family:sans-serif;
+}
+
+.container h1{
+	text-align: center;
+}
+
+/* Adding style to Introduction */
+.column{
+	display: inline-block;
+	float: left;
+	width:40%;
+	padding: 0 20px;
+}
+
+.intro{
+	padding-left: 35px;
+    padding-right: 30px;
+	background-color: lightgrey;
+	text-align: justify;
+	margin-right: 10px;
+	width:40%;
+}
+
+.intro p{
+	font-size:1.5em;
+	-webkit-margin-before: 0;
+	text-align: left;
+}
+
+.intro h2{
+	margin-top:0px;
+	font-family:'Supermercado One', cursive;
+	font-size: 2em;
+}
+
+
+/* Styling the skills column*/
+.skills{
+	background-color: #5AD4C2;
+	width:35%;
+	padding-left: 30px;
+    padding-right: 30px;
+	
+}
+.skills h3{
+	text-align: left;
+	text-transform: uppercase;
+	line-height: 25pt;
+
+}
+
+.skills h2{
+	margin-top: 0px;
+    margin-bottom: 0px;
+	font-family:'Supermercado One', cursive;
+}
+
+#skills-list{
+margin-left: 30px;
+margin-top: 0px;
+}
+
+/* Adding style to More Info About Me*/
+
+.main-text{
+	padding-bottom: 10px;
+}
+.main-text p{
+	background-color:white;
+	font-size: 1.5em;
+	line-height: 25pt;
+	
+}
+.main-text h3{ 
+	clear: both;
+	padding-top:60px;
+	padding:top right bottom left;
+	width: 70%;
+	margin-bottom: 10px;
+	font-family:'Supermercado One', cursive;
+	color: white;
+	font-size: 1em;
+	
+}
+
+/*Appling formating to text and paragraph*/
+h1,
+h2,
+h3{
+	font-family:s"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+p,
+li{
+	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+
+

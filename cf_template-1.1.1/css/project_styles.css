@@ -1,0 +1,74 @@
+body{
+	/*background-color: #088A85;*/
+	padding-top:76.422px;
+	margin-right: 5%;
+	margin-left:5%;
+	
+}
+* { box-sizing: border-box; }
+
+ /*entire page body*/
+ 
+ 
+    
+ }
+/* header navigation*/
+.nav{
+    background-color: aquamarine;
+	width:100%;
+	position:fixed;
+	top:0;
+	padding: 0px 10px 0px;
+	right:0px;
+	align-items: center;
+    /*margin-left:10% auto;
+	margin-right:10% auto;*/
+    padding-left: 20px;
+    padding-right: 20px;
+	height: 100px;
+
+	
+}
+.nav ul li{
+	display: inline-block;
+	font-size: 5em;
+	line-height:10%;
+    align-content: center;
+	width: 140px;
+	
+	
+    
+}
+/*navigation font color*/
+.nav ul li a {
+	text-transform: uppercase;
+	color: black;
+	letter-spacing: 0.1em;
+	float:right;
+	margin-right:0px;
+	
+	
+	
+}
+/*styling the logo .. */
+.nav a{
+	padding:20px;
+	
+		
+}
+
+/* Adding Pseudo- Classs.. */
+.nav a:hover{
+	color: lightsalmon;
+	text-decoration: none;
+	transition: color 600ms;
+}
+
+
+.header{
+    background-color: aqua;
+}
+
+.container p{
+    background-color: aqua;
+}

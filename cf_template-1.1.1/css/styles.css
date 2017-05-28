@@ -1,0 +1,106 @@
+body{
+    background-color: #9099A2;
+    max-width: inherit;
+}
+.jumbotron {
+    background-image: url("http://yaw.bitballoon.com/img/mfo1.jpeg");
+    background-size:cover;
+    padding-bottom: 15px;
+    padding-top: 5px;
+    padding-left: 0px;
+    
+}
+
+.jumbotron p{
+	color:black;
+	font-family: Calibri;
+	text-align: center;
+	font-size:1.3em;
+
+}
+
+.jumbotron h1{
+	color: black;
+	font-family: Bell mt;
+	font-size:3em;
+	text-align: center;
+	
+
+}
+.jumbotron a{
+    color:black;
+	/*font-family: San-serif;*/
+	font-size:1.2em;
+	margin-left: 10px;
+	margin-right: 2px;
+    padding-top: 10px;
+    
+       
+}
+
+.nav{
+    padding-top: 10px;
+    background-color: #555555;
+        
+}
+
+.nav li{
+    height: 60px;
+	display:inline-block;
+
+}
+
+
+.nav li{
+    height: 60px;
+	display:inline-block;
+	padding-right:10px;
+}
+
+.nav ul li a{
+	text-transform: uppercase;
+	color: white;
+	letter-spacing:0.1em;
+	margin-left: 1px;
+	
+	
+
+}
+.nav ul{
+	float:right;
+	height: 10px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    
+}
+#container.nav{
+	text-align: right;
+	width:70%;
+	border-left: 0px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-left: 12px;
+
+}
+
+/* Adding Pseudo- Classs.. */
+#container nav a:hover{
+	color: lightsalmon;
+	text-decoration: none;
+	transition: color 600ms;
+}
+
+.container{
+    padding-bottom: 20px;
+    padding-top:30px;
+    padding-right: 50px;
+    height: 300px;
+}
+
+.column{
+ background-color: white;
+
+}
+
+	
+        
